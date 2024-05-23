@@ -1,0 +1,13 @@
+body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 5px;
+}
