@@ -1,0 +1,72 @@
+body{
+    background-color: #990e38;
+}
+.cabeca{
+    background-color: #ffffff;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2{
+    color: #990e38;
+    font-family: 'Segoe UI';
+    text-align: center;
+    font-size: 40px;
+}
+
+.img-logo{
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.corpo{
+    width: 1300px;
+    margin: 50px auto 50px;
+}
+
+.grade{
+    display: grid;
+    grid-template-columns: calc(25% - 15px) calc(25% - 15px) calc(25% - 15px) calc(25% - 15px);
+    height: 760%;
+    grid-gap: 20px 20px;
+}
+
+.chaves{
+    background-color: #ffffff;
+    border-radius: 25px;
+    padding: 20px 20px 20px 20px;
+}
+
+.grupo{
+    background-color: transparent;
+    padding: 10px 10px 10px 10px;
+}
+
+.nomegp{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.img-bandeira{
+    height: 55px;
+    width: 70px;
+    margin: 30px 30px 0 10px;
+    border-radius: 10px;
+}
+
+.nomepais{
+    margin: -40px 30px 0 90px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.desc{
+    font-size: 30px;
+    text-align: center;
+}
